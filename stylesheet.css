@@ -1,0 +1,51 @@
+.imageCarousel {
+    position: relative;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideImg{
+    max-width: 450px;
+    height: auto;
+    display: none;
+    position: relative;
+}
+
+.rightBtt, .leftBtt {
+    width: 15px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.rightBtt { 
+    position: absolute;
+    top:48%;
+    right :0;
+    display: block;
+}
+.leftBtt { 
+    position: absolute;
+    top:48%;
+    left :0;
+    display: block;
+}
+
+.navBtts {
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    bottom: 0;
+    left: 43%;
+    gap: 10px;
+}
+
+.navBtt {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+}
